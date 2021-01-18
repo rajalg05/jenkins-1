@@ -13,7 +13,7 @@ class Jenkins1ApplicationTests {
 	
 	@Test
 	void contextLoads() {
-		logger.info("2Test cases executing");
+		logger.info("3Test cases executing");
 		assertEquals(true, true);
 	}
 

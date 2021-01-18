@@ -12,7 +12,7 @@ class Jenkins1ApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger("Jenkins1ApplicationTests");
 	
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		logger.info("3Test cases executing");
 		assertEquals(true, true);
 	}

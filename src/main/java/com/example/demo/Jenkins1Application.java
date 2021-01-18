@@ -8,6 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+
 public class Jenkins1Application {
 
 	public static Logger logger = LoggerFactory.getLogger("JenkinsApplication");
@@ -21,5 +22,5 @@ public class Jenkins1Application {
 		SpringApplication.run(Jenkins1Application.class, args);
 	}
 
-
+	
 }
